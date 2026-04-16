@@ -41,7 +41,7 @@
 
 
     <p id="status" class="status" hidden></p>
-    <ul id="issues" class="issues"></ul>
+    <ul id="issues" class="issues" hidden></ul>
 
     <section id="helpPanel" class="help-panel" hidden>
       <div class="help-header">
@@ -92,6 +92,25 @@
           </button>
         </div>
       </div>
+    </section>
+
+    <section class="quick-install" aria-label="Quick install providers">
+      <span class="quick-install-title">Quick install</span>
+      <div class="quick-install-buttons">
+        <button type="button" class="quick-install-btn" data-provider="claude" data-tooltip="Select your working project folder">
+          <img src="../logos/claude-color.svg" class="ai-logo" alt="" aria-hidden="true" />
+          Claude Code
+        </button>
+        <button type="button" class="quick-install-btn" data-provider="codex" data-tooltip="Select your working project folder">
+          <img src="../logos/codex-color.svg" class="ai-logo" alt="" aria-hidden="true" />
+          Codex
+        </button>
+        <button type="button" class="quick-install-btn" data-provider="cursor" data-tooltip="Select your working project folder">
+          <img src="../logos/cursor.svg" class="ai-logo" alt="" aria-hidden="true" />
+          Cursor
+        </button>
+      </div>
+      <p id="quickInstallResult" class="quick-install-result" hidden></p>
     </section>
 
     <footer class="footnote">
