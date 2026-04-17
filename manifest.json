@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "DESIGN.md Style Extractor - TypeUI",
-  "description": "Extract page styles and generate DESIGN.md or SKILL.md files and use it with Google Stitch, Claude, Codex, and Cursor to generate websites in that given style.",
-  "version": "0.3.0",
+  "description": "Extract page styles and generate DESIGN.md or SKILL.md files and use it with Google Stitch, Claude, Codex, and Cursor.",
+  "version": "0.4.0",
   "homepage_url": "https://www.typeui.sh",
   "permissions": [
     "activeTab",
